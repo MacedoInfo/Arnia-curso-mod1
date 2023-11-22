@@ -1,0 +1,66 @@
+*{
+    margin: none;
+    border: none;
+    padding: none;
+}
+.tabela1{
+    min-width: 888px;
+
+   
+}
+.titulo{
+    color: #3a3a4d    ;
+
+}
+tr:nth-child(odd){
+    background-color: rgb(126, 126, 126);
+}
+tr:nth-child(1){
+    background-color: #0ca2ed;
+}
+.titulotabela{
+    color: white   ;
+    font-size: 16 solid;
+}
+
+.botao{
+    
+    border: none;
+}
+
+
+
+.bloco1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.quitado{
+    background-color: #c7ecd4;
+    color: #00c247;
+    border-radius: 5em;
+   
+}
+.valor{
+    width: 100%;
+    background-color: #c7ecd4;
+    
+    border-radius: 5em;
+    min-height: 30px;
+    
+    
+}
+.editar{
+    color: #0ca2ed;
+   background-color: transparent;
+   border: 1px solid #0ca2ed;
+    margin: 5px;
+}
+.excluir{
+    color: red;
+   background-color: transparent;
+   border: 1px solid red;
+   margin: 5px;
+}

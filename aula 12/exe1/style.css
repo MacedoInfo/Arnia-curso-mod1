@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+h1{
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    font-style: oblique;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+}
+.nome-restaurante{
+    font-size: 1em;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+
+.box{
+    width: 100vw;
+    height: 50px;
+    box-shadow: 0px 1px 6px #b4b4b457;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.container-subtitulo-box{
+    font-size: 0.75em;
+}
+.valor{
+    padding-right: 0.75em;
+    color: rgb(245, 96, 10);
+
+}
+img{
+    max-height: 100%;
+}

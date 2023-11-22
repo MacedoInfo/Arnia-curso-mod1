@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    border: none;
+    padding: 0%;
+}
+.titulo{
+    color: #3a3a4d    ;
+
+}
+.titulotabela{
+    background-color: #0ca2ed;
+    color: #212529   ;
+    font-size: 16 solid;
+}
+.tabela1{
+    border-collapse: collapse;
+}
+.botao{
+    display: inline;
+    border: none;
+}
+td, tr, th {
+    border: 3px solid red;
+    
+}
+.bloco1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

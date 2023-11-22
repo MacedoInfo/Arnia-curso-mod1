@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap');
+body{ 
+  font-family: Poppins, sans-serif;
+  background-color: #808080;
+  
+
+}
+a{
+    color: #a10303;
+}
+
+h1 {
+    color: #a10303;
+    font: 2em sans-serif;
+}
+h2 {
+    
+    font: 1.5em sans-serif;
+}
+.Chefe ,.Cliente {
+    width: 100px;
+    height: 100px;
+}
+
+.Item ,.Menu{
+    width: 30px;
+    height: 30px;
+
+}
+.voltar{
+    color: #616161;
+}
+h3{
+    font: 1em Poppins,sans-serif;
+    
+}
+.ativo{
+    
+}

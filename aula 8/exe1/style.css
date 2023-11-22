@@ -1,0 +1,45 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Karla&family=Poppins:wght@300&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+
+}
+body{
+    background-color: #A7D7C5;
+}
+.card {
+    background-color: #f7f7f7;
+   width: 40%;
+   margin: 10em auto ;
+   padding:  40px;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 1rem;
+}
+h2{
+    color: #c6c6c6;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+input{
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    width: 100%;
+}
+button{
+    width: 100%;
+    color:white;
+    background-color: #49b98f;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: .8rem 0;
+}

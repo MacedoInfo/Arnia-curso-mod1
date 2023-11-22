@@ -1,0 +1,15 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+h1 {
+    color: rgb(235, 25, 25);
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+
+}
+
+.foto {
+    background-color:black ;
+    width: 200px;
+    height: 200px;
+ }

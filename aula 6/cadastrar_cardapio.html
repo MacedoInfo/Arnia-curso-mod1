@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cadastrar Cardapio</title>
+</head>
+
+<body>
+    <h1>Cadastrar Cardapio</h1>
+    <div>
+        <form action="">
+            <label for="nome">Nome:</label> <br />
+            <input type="text" name="nome" id="nome"> <br />
+
+            <label for="descricao_cardapio">Descricao Cardapio:</label> <br />
+            <textarea type="text" name="descricao_cardapio" id="descricao_cardapio"></textarea> <br />
+
+            <p>Ativo?</p>
+            <div class="ativo">
+                <label for="Ativo">Sim</label>
+                <input type="radio" name="Ativo" id="Ativo" value="sim">
+            </div>
+            <div class="ativo">
+                <label for="Ativo">Não</label>
+                <input type="radio" name="Ativo" id="Ativo" value="nao">
+            </div>
+
+
+    </div>
+    <hr>
+    <div>
+        <h2>Pratos</h2>
+        <p>Prato 1:</p>
+        <select nome="tipo1" id="tipo1">
+            <option value="">Escolha</option>
+            <option value="bebida">Bebida</option>
+            <option value="prato">Prato</option>
+        </select> <br />
+        <label for="valor1">Valor:</label> <br />
+        <input type="text" name="valor1" id="valor1">
+
+        <p>Prato 2:</p>
+        <select nome="tipo2" id="tipo2">
+            <option value="">Escolha</option>
+            <option value="bebida">Bebida</option>
+            <option value="prato">Prato</option>
+        </select> <br />
+        <label for="valor2">Valor:</label> <br />
+        <input type="text" name="valor2" id="valor2">
+    </div>
+
+    <hr>
+    <div>
+        <h2>Bebidas</h2>
+        <p>Bebida 1:</p>
+        <select nome="tipo1_bebida" id="tipo1_bebida">
+            <option value="">Escolha</option>
+            <option value="bebida">Bebida</option>
+            <option value="prato">Prato</option>
+        </select> <br />
+        <label for="valor1_bebida">Valor:</label> <br />
+        <input type="text" name="valor1_bebida" id="valor1_bebida">
+
+        <p>Prato 2:</p>
+        <select nome="tipo2_bebida" id="tipo2_bebida">
+            <option value="">Escolha</option>
+            <option value="bebida">Bebida</option>
+            <option value="prato">Prato</option>
+        </select> <br />
+        <label for="valor2_bebida">Valor:</label> <br />
+        <input type="text" name="valor2_bebida" id="valor2_bebida">
+    </div>
+
+
+    <label for="tipo">Enviar cadastro do cardapio:</label>
+    <button type="submit">Enviar</button>
+    </form>
+    <div><a href="index.html" class="voltar">voltar</a></div>
+</body>
+
+</html>

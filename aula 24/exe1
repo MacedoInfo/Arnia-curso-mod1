@@ -1,0 +1,26 @@
+const io = require('../io/io')
+
+function conta (n1, n2, n3){
+
+    n1 = n1 * 365 
+    n2 = n2 * 30
+    n3 = n3 + n1 + n2
+ return n3
+
+}
+
+io.write(`____Digita sua idade____`)
+io.write(`Quantos anos vc tem?`)
+let ano = io.readInt()
+
+io.write(`Quantos mes vc tem?`)
+let mes = io.readInt()
+
+io.write(`Quantos dias vc tem?`)
+let dias = io.readInt()
+
+ const total = conta(ano, mes, dias)
+
+io.write(`Quantos dias vc tem? ${total}`)
+
+
